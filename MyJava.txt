@@ -1,12 +1,14 @@
 //This is my first java application!!!
 class MyClass{
 	
-	myMethod(){
+	void myMethod(){
 		System.out.println("Welcome to Git!!!");
 	}
 
 	public static void main(String args[]){
-	
+		
+		MyClass obj = new MyClass();
+		obj.myMethod();
 	}
 
 }
