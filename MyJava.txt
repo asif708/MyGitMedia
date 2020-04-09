@@ -1,14 +1,17 @@
 //This is my first java application!!!
 class MyClass{
 	
-	static void myMethod(String str){
-		System.out.println(str);
+	static String myMethod(String str){
+		
+	//
+		return str;
+
 	}
 
 	public static void main(String args[]){
 		
-		
 		myMethod("Welcome to Git user2 Better changes");
+
 	}
 
 }
