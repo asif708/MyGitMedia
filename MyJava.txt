@@ -1,14 +1,14 @@
 //This is my first java application!!!
 class MyClass{
 	
-	void myMethod(){
-		System.out.println("Welcome to Git!!!");
+	static void myMethod(String str){
+		System.out.println(str);
 	}
 
 	public static void main(String args[]){
 		
-		MyClass obj = new MyClass();
-		obj.myMethod();
+		
+		myMethod("Welcome to Git user2 Better changes");
 	}
 
 }
